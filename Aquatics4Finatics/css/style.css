@@ -1,0 +1,106 @@
+body {
+  background: #333;
+  color: #fff;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+h1 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 3.5rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+.navbar {
+  border-bottom: #195797 3px solid;
+  opacity: 0.9;
+}
+.main-logo {
+  height: 75px;
+  width: auto;
+}
+/*Hero-slideshow*/
+#home {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+#home .home-inner {
+  padding-top: 300px;
+}
+#head-number-color,
+#footer-number-color {
+  color: #f68245;
+}
+#learn-more {
+  background-color: #195797;
+  border-color: #195797;
+}
+h3::after {
+  display: block;
+  height: 2px;
+  background-color: #f68245;
+  content: " ";
+  width: 125px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+h4 {
+  font-size: 2rem;
+  color: #195797;
+}
+/*Marine + Freshwater Slideshows*/
+.carousel-inner .carousel-item img {
+  margin: auto;
+  max-height: 450px;
+}
+/*Gallery*/
+#client-slide .carousel-inner .carousel-item img {
+  margin: auto;
+  max-height: 600px;
+}
+/*Social Media Icons*/
+.socials a {
+  color: #fff;
+}
+#fb-icon:hover {
+  color: #3b5998;
+}
+/*Footer Brand*/
+#footer-name {
+  color: #fff;
+}
+/*Custom Media Queries*/
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  .main-logo {
+  height: 50px;
+}
+}
+@media (max-width: 374px) {
+  h1 {
+    font-size: 2.1rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  .main-logo {
+  height: 40px;
+}
+}
